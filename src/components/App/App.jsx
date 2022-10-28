@@ -17,6 +17,7 @@ const App = () => {
 			React homework template
 			<input
 				type="checkbox"
+				checked={colorMode === 'light' ? true : false}
 				onChange={() => setColorMode(colorMode === 'light' ? 'dark' : 'light')}
 				sx={{
 					bg: 'primary',
