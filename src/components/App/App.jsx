@@ -1,14 +1,13 @@
-import { useColorMode } from 'theme-ui';
-import { Input } from './App.styled';
+import Layout from 'Layout/Layout';
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
-	const [colorMode, setColorMode] = useColorMode();
 	return (
-		<Input
-			type="checkbox"
-			checked={colorMode === 'light' ? true : false}
-			onChange={() => setColorMode(colorMode === 'light' ? 'dark' : 'light')}
-		/>
+		<Routes>
+			<Route path="/" element={<Layout />}>
+				{/* <Route index element={<HomePage/> } /> */}
+			</Route>
+		</Routes>
 	);
 };
 
