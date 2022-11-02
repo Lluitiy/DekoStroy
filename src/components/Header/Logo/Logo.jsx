@@ -1,6 +1,6 @@
 const Logo = () => {
 	return (
-		<a href="/">
+		<a href="/" aria-label="deco stroy logo">
 			Deco
 			<span>Stroy</span>
 		</a>
