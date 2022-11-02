@@ -4,7 +4,7 @@ export const SocialsList = styled.ul`
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
-	gap: 8px;
+	gap: 16px;
 `;
 export const SocialsItem = styled.li`
 	display: flex;

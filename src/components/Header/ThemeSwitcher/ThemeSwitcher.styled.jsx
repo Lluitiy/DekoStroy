@@ -10,5 +10,8 @@ export const Label = styled.label`
 export const IconWrapper = styled.div`
 	position: absolute;
 	top: 0;
-	transform: translateY(90%);
+	transform: translateY(95%);
+	@media screen and (min-width: 1280px) {
+		transform: translateY(150%);
+	}
 `;

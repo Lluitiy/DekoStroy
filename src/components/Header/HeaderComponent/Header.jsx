@@ -8,6 +8,7 @@ import Socials from '../Socials/Socials';
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 import BurgerButton from '../BurgerButton/BurgerButton';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => {
 	const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
@@ -26,7 +27,8 @@ const Header = () => {
 			<Container>
 				<HeadWrapper>
 					<Logo />
-					{!isDesktop && <Socials />}
+					<Socials />
+					{isDesktop && <Navigation />}
 					<ThemeSwitcher />
 					{!isDesktop && !isOpenBurger && (
 						<BurgerButton onClick={onToggleBurger}>
