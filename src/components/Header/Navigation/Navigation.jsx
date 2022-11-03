@@ -21,7 +21,7 @@ const Navigation = () => {
 	const [priceIsOpen, setPriceIsOpen] = useState(false);
 	const [examplesIsOpen, setExamplesIsOpen] = useState(false);
 	const onToggleSubMenu = e => {
-		const btnName = e.target.name;
+		const btnName = e.currentTarget.name;
 
 		switch (btnName) {
 			case 'services':
