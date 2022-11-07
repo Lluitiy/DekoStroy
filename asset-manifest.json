@@ -1,7 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.c9c88ff3.css",
-    "main.js": "/static/js/main.36d9d3f3.js",
+    "main.js": "/static/js/main.39fb2fef.js",
+    "static/media/renovationNewBuilding.png": "/static/media/renovationNewBuilding.f8c9939c9cbcaa190e6c.png",
+    "static/media/bg-form-1.jpg": "/static/media/bg-form-1.0fb902eb1d65f87ad5c2.jpg",
+    "static/media/urgentApartmentRenovation.png": "/static/media/urgentApartmentRenovation.3ab1b13f2b618dc46fb9.png",
+    "static/media/design_interior.png": "/static/media/design_interior.13a061ffdf316d82b336.png",
+    "static/media/electricInstallationWork.jpg": "/static/media/electricInstallationWork.a342015309df3e84f609.jpg",
+    "static/media/hero.jpg": "/static/media/hero.98a1a245edbde6acc931.jpg",
+    "static/media/renovation.jpg": "/static/media/renovation.205c98e6a28aecf0e7e6.jpg",
+    "static/media/constructionOfHouses.jpg": "/static/media/constructionOfHouses.ad80477cef653ad6e217.jpg",
+    "static/media/FinishingWork.jpg": "/static/media/FinishingWork.3cad827e2ea22111e59d.jpg",
     "static/media/phone.svg": "/static/media/phone.3c9f20c740e4122302f69c998928f1c7.svg",
     "static/media/instagramIcon.svg": "/static/media/instagramIcon.2c1fb3d82354843968f4284286f6e29d.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.7a164f38c661323e671072eab9c431b8.svg",
@@ -14,10 +23,10 @@
     "static/media/moon.svg": "/static/media/moon.3dc4a5a5c6adc24159bbf3b154131ba9.svg",
     "static/media/burgerIcon.svg": "/static/media/burgerIcon.75f7e1030d3a58f91dd9abf4109ae4ce.svg",
     "main.c9c88ff3.css.map": "/static/css/main.c9c88ff3.css.map",
-    "main.36d9d3f3.js.map": "/static/js/main.36d9d3f3.js.map"
+    "main.39fb2fef.js.map": "/static/js/main.39fb2fef.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c88ff3.css",
-    "static/js/main.36d9d3f3.js"
+    "static/js/main.39fb2fef.js"
   ]
 }
