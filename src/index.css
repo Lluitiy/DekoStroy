@@ -64,3 +64,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* a>div>img,
+a>div {
+  transition: all 250ms linear;
+}
+
+a:hover>div {
+  background: rgb(161, 38, 38);
+}
+
+a:hover>div>img {
+  transform: scale(1.2);
+} */

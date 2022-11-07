@@ -42,7 +42,7 @@ const Navigation = () => {
 			<NavList>
 				<NavItem>
 					<NavItemWrapper>
-						<NavLink>Послуги</NavLink>
+						<NavLink to="services">Послуги</NavLink>
 						<NavMenuBtn onClick={onToggleSubMenu} name="services">
 							{servicesIsOpen ? (
 								<ArrowUp aria-label="open submenu with services" fill="black" />

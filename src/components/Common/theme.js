@@ -5,6 +5,7 @@ const theme = {
 		background: '#908B4F',
 		primary: '#F4E36E',
 		overlay: 'rgba(0, 0, 0, 0.3)',
+		white: '#ffffff',
 		modes: {
 			dark: {
 				text: '#E7E8ED',
