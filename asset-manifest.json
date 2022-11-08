@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9c88ff3.css",
-    "main.js": "/static/js/main.39fb2fef.js",
+    "main.js": "/static/js/main.afb1fe78.js",
     "static/media/renovationNewBuilding.png": "/static/media/renovationNewBuilding.f8c9939c9cbcaa190e6c.png",
     "static/media/bg-form-1.jpg": "/static/media/bg-form-1.0fb902eb1d65f87ad5c2.jpg",
     "static/media/urgentApartmentRenovation.png": "/static/media/urgentApartmentRenovation.3ab1b13f2b618dc46fb9.png",
@@ -15,7 +15,7 @@
     "static/media/instagramIcon.svg": "/static/media/instagramIcon.2c1fb3d82354843968f4284286f6e29d.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.7a164f38c661323e671072eab9c431b8.svg",
     "static/media/sun.svg": "/static/media/sun.9b7686d8d29831c5f467c3ab4a054b38.svg",
-    "static/media/facebookIcon.svg": "/static/media/facebookIcon.68ff41acd25ceb22a244b6330d8ee4ab.svg",
+    "static/media/facebookIcon.svg": "/static/media/facebookIcon.6f1644965c2917dca883e977380a17f2.svg",
     "static/media/crossClose.svg": "/static/media/crossClose.98b807895513a98e63a60989c0ca87ac.svg",
     "static/media/arrow-down.svg": "/static/media/arrow-down.733bccd4abea728ef6c8e275f884168e.svg",
     "static/media/arrow-up.svg": "/static/media/arrow-up.7ff3243f13cb31c832294e3e904ea87c.svg",
@@ -23,10 +23,10 @@
     "static/media/moon.svg": "/static/media/moon.3dc4a5a5c6adc24159bbf3b154131ba9.svg",
     "static/media/burgerIcon.svg": "/static/media/burgerIcon.75f7e1030d3a58f91dd9abf4109ae4ce.svg",
     "main.c9c88ff3.css.map": "/static/css/main.c9c88ff3.css.map",
-    "main.39fb2fef.js.map": "/static/js/main.39fb2fef.js.map"
+    "main.afb1fe78.js.map": "/static/js/main.afb1fe78.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c88ff3.css",
-    "static/js/main.39fb2fef.js"
+    "static/js/main.afb1fe78.js"
   ]
 }
