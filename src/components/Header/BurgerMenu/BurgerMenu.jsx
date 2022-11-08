@@ -9,7 +9,12 @@ const BurgerMenu = ({ onToggleBurger, onToggleOverlay }) => {
 			<Burger>
 				<BtnWrapper>
 					<BurgerButton onClick={onToggleBurger}>
-						<CrossClose aria-label="close burger menu" fill="black"/>
+						<CrossClose
+							aria-label="close burger menu"
+							fill="black"
+							idth={16}
+							height={16}
+						/>
 					</BurgerButton>
 				</BtnWrapper>
 				<Navigation />

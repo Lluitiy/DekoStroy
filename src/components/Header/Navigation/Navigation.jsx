@@ -45,11 +45,18 @@ const Navigation = () => {
 						<NavLink to="services">Послуги</NavLink>
 						<NavMenuBtn onClick={onToggleSubMenu} name="services">
 							{servicesIsOpen ? (
-								<ArrowUp aria-label="open submenu with services" fill="black" />
+								<ArrowUp
+									aria-label="open submenu with services"
+									fill="black"
+									width={16}
+									height={16}
+								/>
 							) : (
 								<ArrowDown
 									aria-label="close submenu with services"
 									fill="black"
+									width={16}
+									height={16}
 								/>
 							)}
 						</NavMenuBtn>
@@ -67,11 +74,18 @@ const Navigation = () => {
 						<NavLink>Ціни</NavLink>
 						<NavMenuBtn onClick={onToggleSubMenu} name="price">
 							{priceIsOpen ? (
-								<ArrowUp aria-label="open submenu with prices" fill="black" />
+								<ArrowUp
+									aria-label="open submenu with prices"
+									fill="black"
+									idth={16}
+									height={16}
+								/>
 							) : (
 								<ArrowDown
 									aria-label="close submenu with prices"
 									fill="black"
+									idth={16}
+									height={16}
 								/>
 							)}
 						</NavMenuBtn>
@@ -89,11 +103,18 @@ const Navigation = () => {
 						<NavLink>Приклади</NavLink>
 						<NavMenuBtn onClick={onToggleSubMenu} name="examples">
 							{examplesIsOpen ? (
-								<ArrowUp aria-label="open submenu with examples" fill="black" />
+								<ArrowUp
+									aria-label="open submenu with examples"
+									fill="black"
+									idth={16}
+									height={16}
+								/>
 							) : (
 								<ArrowDown
 									aria-label="close submenu with examples"
 									fill="black"
+									idth={16}
+									height={16}
 								/>
 							)}
 						</NavMenuBtn>
