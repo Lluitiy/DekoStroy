@@ -47,14 +47,12 @@ const Navigation = () => {
 							{servicesIsOpen ? (
 								<ArrowUp
 									aria-label="open submenu with services"
-									fill="black"
 									width={16}
 									height={16}
 								/>
 							) : (
 								<ArrowDown
 									aria-label="close submenu with services"
-									fill="black"
 									width={16}
 									height={16}
 								/>
@@ -76,14 +74,12 @@ const Navigation = () => {
 							{priceIsOpen ? (
 								<ArrowUp
 									aria-label="open submenu with prices"
-									fill="black"
 									idth={16}
 									height={16}
 								/>
 							) : (
 								<ArrowDown
 									aria-label="close submenu with prices"
-									fill="black"
 									idth={16}
 									height={16}
 								/>
@@ -105,14 +101,12 @@ const Navigation = () => {
 							{examplesIsOpen ? (
 								<ArrowUp
 									aria-label="open submenu with examples"
-									fill="black"
 									idth={16}
 									height={16}
 								/>
 							) : (
 								<ArrowDown
 									aria-label="close submenu with examples"
-									fill="black"
 									idth={16}
 									height={16}
 								/>
