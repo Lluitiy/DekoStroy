@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c9c88ff3.css",
-    "main.js": "/static/js/main.afb1fe78.js",
+    "main.js": "/static/js/main.2e548844.js",
     "static/media/renovationNewBuilding.png": "/static/media/renovationNewBuilding.f8c9939c9cbcaa190e6c.png",
+    "static/media/repairs-img.png": "/static/media/repairs-img.80e0728d3c14736084f8.png",
     "static/media/bg-form-1.jpg": "/static/media/bg-form-1.0fb902eb1d65f87ad5c2.jpg",
     "static/media/urgentApartmentRenovation.png": "/static/media/urgentApartmentRenovation.3ab1b13f2b618dc46fb9.png",
     "static/media/design_interior.png": "/static/media/design_interior.13a061ffdf316d82b336.png",
+    "static/media/repair-card.png": "/static/media/repair-card.22daadc5fe7fea1996dc.png",
+    "static/media/design-card.png": "/static/media/design-card.b026963a6cb624ea38ae.png",
     "static/media/electricInstallationWork.jpg": "/static/media/electricInstallationWork.a342015309df3e84f609.jpg",
     "static/media/hero.jpg": "/static/media/hero.98a1a245edbde6acc931.jpg",
     "static/media/renovation.jpg": "/static/media/renovation.205c98e6a28aecf0e7e6.jpg",
@@ -23,10 +26,10 @@
     "static/media/moon.svg": "/static/media/moon.3dc4a5a5c6adc24159bbf3b154131ba9.svg",
     "static/media/burgerIcon.svg": "/static/media/burgerIcon.75f7e1030d3a58f91dd9abf4109ae4ce.svg",
     "main.c9c88ff3.css.map": "/static/css/main.c9c88ff3.css.map",
-    "main.afb1fe78.js.map": "/static/js/main.afb1fe78.js.map"
+    "main.2e548844.js.map": "/static/js/main.2e548844.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c88ff3.css",
-    "static/js/main.afb1fe78.js"
+    "static/js/main.2e548844.js"
   ]
 }
