@@ -15,8 +15,12 @@ export const ConsultForm = styled(Form)`
 
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
-        flex-wrap: wrap;
-        gap: 8px;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+	@media screen and (min-width: 1280px) {
+		align-items: end;
+		justify-content: space-around;
 	}
 `;
 
@@ -47,7 +51,7 @@ export const ConsultInput = styled(Field)`
 
 	box-shadow: ${p => p.theme.shadows.boxShadow};
 	background-color: ${p => p.theme.colors.background};
-    @media screen and (min-width: 768px) {
+	@media screen and (min-width: 768px) {
 		padding: 16px 8px;
 	}
 `;
@@ -77,9 +81,12 @@ export const ConsultButton = styled.button`
 	color: ${p => p.theme.colors.text};
 	background-color: ${p => p.theme.colors.background};
 
-    @media screen and (min-width: 768px) {
+	@media screen and (min-width: 768px) {
 		width: 33%;
 
-        padding: 16px 32px;
+		padding: 16px 32px;
+	}
+	@media screen and (min-width: 1280px) {
+		width: 25%;
 	}
 `;

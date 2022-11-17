@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import navData from './navData.json';
+import navData from 'data/navData';
 import { ReactComponent as ArrowDown } from 'Assets/svg/arrow-down.svg';
 import { ReactComponent as ArrowUp } from 'Assets/svg/arrow-up.svg';
 
