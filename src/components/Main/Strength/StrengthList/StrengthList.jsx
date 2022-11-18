@@ -11,12 +11,16 @@ import {
 
 const StrengthList = () => {
 	const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
-
+	const isTablet = useMediaQuery({ query: '(min-width: 768px)' });
 	return (
 		<StrengthsList>
 			{strengths.map(({ img, header, text }) => (
 				<StrengthItem key={header}>
-					<StrengthImg src={img} alt={header} width={!isDesktop ? 288 : 400} />
+					<StrengthImg
+						src={img}
+						alt={header}
+						width={!isTablet ? 288 : !isDesktop ? 336 : 400}
+					/>
 					<StrengthWrapper>
 						<StrngthItemHeading>{header}</StrngthItemHeading>
 						<StrengthItemText>{text}</StrengthItemText>

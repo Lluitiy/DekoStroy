@@ -18,7 +18,10 @@ export const StrengthItem = styled.li`
 	border-radius: 4px;
 	overflow: hidden;
 	box-shadow: ${p => p.theme.shadows.boxShadows};
-
+	@media screen and (min-width: 768px) {
+		width: 336px;
+		height: 336px;
+	}
 	@media screen and (min-width: 1280px) {
 		width: 400px;
 		height: 400px;
@@ -33,7 +36,7 @@ export const StrengthWrapper = styled.div`
 	left: 0;
 	width: 100%;
 	height: 100%;
-
+	border-radius: 4px;
 	padding: 16px;
 	background-color: ${p => p.theme.shadows.blur};
 `;

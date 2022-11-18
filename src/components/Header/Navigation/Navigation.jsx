@@ -20,6 +20,7 @@ const Navigation = () => {
 	const [servicesIsOpen, setServicesIsOpen] = useState(false);
 	const [priceIsOpen, setPriceIsOpen] = useState(false);
 	const [examplesIsOpen, setExamplesIsOpen] = useState(false);
+
 	const onToggleSubMenu = e => {
 		const btnName = e.currentTarget.name;
 
@@ -43,7 +44,11 @@ const Navigation = () => {
 				<NavItem>
 					<NavItemWrapper>
 						<NavLink to="services">Послуги</NavLink>
-						<NavMenuBtn onClick={onToggleSubMenu} name="services">
+						<NavMenuBtn
+							onClick={onToggleSubMenu}
+
+							name="services"
+						>
 							{servicesIsOpen ? (
 								<ArrowUp
 									aria-label="open submenu with services"
@@ -60,7 +65,7 @@ const Navigation = () => {
 						</NavMenuBtn>
 					</NavItemWrapper>
 					{servicesIsOpen && (
-						<NavSubList>
+						<NavSubList >
 							{services.map(service => (
 								<NavSubItem key={service}>{service}</NavSubItem>
 							))}

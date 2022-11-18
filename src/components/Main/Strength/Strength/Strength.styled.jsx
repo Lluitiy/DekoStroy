@@ -20,10 +20,10 @@ export const StrnegthCallback = styled.a`
 	color: ${p => p.theme.colors.text};
 	box-shadow: ${p => p.theme.shadows.boxShadow};
 	@media screen and (min-width: 788px) {
-		width: 608px;
+		width: 704px;
 		margin: 0px auto;
 	}
-    @media screen and (min-width: 1280px){
-        width: 832px;
-    }
+	@media screen and (min-width: 1280px) {
+		width: 832px;
+	}
 `;
