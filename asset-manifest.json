@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9c88ff3.css",
-    "main.js": "/static/js/main.b337ef77.js",
+    "main.js": "/static/js/main.42547203.js",
     "static/media/renovationNewBuilding.png": "/static/media/renovationNewBuilding.f8c9939c9cbcaa190e6c.png",
     "static/media/repairs-img.png": "/static/media/repairs-img.80e0728d3c14736084f8.png",
     "static/media/bg-form-1.jpg": "/static/media/bg-form-1.0fb902eb1d65f87ad5c2.jpg",
@@ -13,6 +13,7 @@
     "static/media/hero.jpg": "/static/media/hero.98a1a245edbde6acc931.jpg",
     "static/media/renovation.jpg": "/static/media/renovation.205c98e6a28aecf0e7e6.jpg",
     "static/media/constructionOfHouses.jpg": "/static/media/constructionOfHouses.ad80477cef653ad6e217.jpg",
+    "static/media/statbg.jpg": "/static/media/statbg.2a3bc2d2ab03e74dc8c0.jpg",
     "static/media/mainstrength1.jpg": "/static/media/mainstrength1.c838452d3deaf5361df9.jpg",
     "static/media/FinishingWork.jpg": "/static/media/FinishingWork.3cad827e2ea22111e59d.jpg",
     "static/media/mainstrength4.jpg": "/static/media/mainstrength4.bd53adcb505ae6845019.jpg",
@@ -28,10 +29,10 @@
     "static/media/moon.svg": "/static/media/moon.3dc4a5a5c6adc24159bbf3b154131ba9.svg",
     "static/media/burgerIcon.svg": "/static/media/burgerIcon.75f7e1030d3a58f91dd9abf4109ae4ce.svg",
     "main.c9c88ff3.css.map": "/static/css/main.c9c88ff3.css.map",
-    "main.b337ef77.js.map": "/static/js/main.b337ef77.js.map"
+    "main.42547203.js.map": "/static/js/main.42547203.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c88ff3.css",
-    "static/js/main.b337ef77.js"
+    "static/js/main.42547203.js"
   ]
 }
